@@ -17,8 +17,8 @@ Sistema de cadastro de alunos em Python com validações, leitura de CSV e trata
 # Objetivo
 Praticar:
 
-funções
-try/except
-while
-leitura CSV
-tratamento de error
+- funções
+- try/except
+- while
+- leitura CSV
+- tratamento de error
