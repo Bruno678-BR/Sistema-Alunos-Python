@@ -9,6 +9,9 @@ Sistema de cadastro de alunos em Python com validações, leitura de CSV e trata
 - Mostrar maior nota
 - Mostrar quantos alunos cadastrados tem no total
 - Mostrar um relatorio completo(quantidade total de alunos,maior nota,media da turma e nome do aluno com a maior nota)
+
+- **v1_csv** — funções, leitura e escrita em CSV, tratamento de erros
+- **v2_orientacao_objetos** — mesmo sistema refatorado usando orientação a objetos
   
 # Tecnologias utilizadas
 - Python
