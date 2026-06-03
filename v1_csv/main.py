@@ -42,7 +42,7 @@ def calcular_media():
     try:
         with open("alunos.csv", "r") as arquivo:
             leitor = csv.reader(arquivo)
-
+ 
             soma = 0
             contador = 0
 
