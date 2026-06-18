@@ -72,7 +72,7 @@ class SistemaAlunos:
             print("Aluno não encontrado!")
 
     def maior_nota (self):
-        self.cursor.execute("select nome, nota, MAX(nota) from alunos ")
+        self.cursor.execute("SELECT nome, nota FROM alunos ORDER BY nota DESC LIMIT 1 ")
         resultado = self.cursor.fetchone()
 
         return resultado[0]
@@ -138,7 +138,7 @@ while True:
     elif opcao == 6:
         media = sistema.calcular_media()
         if media is not None:
-            print(f"A media dos alunos é: {media:2.f}")
+            print(f"A media dos alunos é: {media:.2f}")
     elif opcao == 7:
         resultado = sistema.relatorio_aluno()
         if resultado is not None:
